@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 
 function Authors() {
   const authors = useSelector((state) => state.authors);
+  // console.log(authors)
 
   return (
     <div>
